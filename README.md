@@ -2,6 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/clean-indent?color=%2334D058&style=for-the-badge)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/clean-indent?style=for-the-badge)
+![npm](https://img.shields.io/npm/dw/clean-indent?style=for-the-badge)
 
 ## Descripción
 
