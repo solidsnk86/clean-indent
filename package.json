@@ -1,0 +1,22 @@
+{
+  "name": "clean-indent",
+  "version": "1.0.0",
+  "description": "Una utilidad para limpiar las indentaciones de cadenas de código.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "pnpm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["indentation", "clean", "format", "code", "typescript"],
+  "author": {
+    "name": "Gabriel Calcagni",
+    "email": "calcagni.gabriel86@gmail.com",
+    "url": "https://calcagni-gabriel.vercel.app"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -22,4 +22,3 @@ Puedes instalar este paquete usando npm o yarn:
 
 ```sh
 npm install limpiar-indentacion
-# clean-indent
