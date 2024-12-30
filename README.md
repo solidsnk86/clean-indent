@@ -1,7 +1,7 @@
 # limpiar-indentacion
 
-![npm](https://img.shields.io/npm/v/limpiar-indentacion?color=%2334D058&style=for-the-badge)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/limpiar-indentacion?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/clean-indent?color=%2334D058&style=for-the-badge)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/clean-indent?style=for-the-badge)
 
 ## Descripción
 
@@ -21,4 +21,11 @@ Puedes instalar este paquete usando npm o yarn:
 ### npm
 
 ```sh
-npm install limpiar-indentacion
+npm install clean-indent
+```
+
+O también puedes usar
+
+```sh
+pnpm install cleant-indent
+```
