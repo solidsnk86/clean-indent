@@ -14,6 +14,7 @@
 - **Ligera**: Sin dependencias adicionales.
 - **Rápida**: Procesa incluso cadenas grandes rápidamente.
 - **Compatibilidad**: Funciona con Node.js y navegadores.
+- **Diseñada**: Esta utilidad está principalmente para formato de código y mostrar un ejemplo dentro de un elemento `<pre>` y limpiar las indentaciones y formatear el código.
 
 ## Instalación
 
@@ -29,4 +30,22 @@ O también puedes usar
 
 ```sh
 pnpm install cleant-indent
+```
+
+### Ejemplo de uso
+
+```typescript
+import cleanIndent from 'clean-indent';
+
+const cleanCode = (code: string) => {
+return cleanIndent(code)
+}
+
+const code = cleanCode()
+
+return (
+   <pre>
+     {code}
+   </pre>
+);
 ```
