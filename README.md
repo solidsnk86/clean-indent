@@ -41,11 +41,15 @@ const cleanCode = (code: string) => {
 return cleanIndent(code)
 }
 
-const code = cleanCode()
+export const Pre = (lang: string, stringCode: string) => {
+
+const code = cleanCode(stringCode)
 
 return (
-   <pre>
+   <pre lang={lang}>
      {code}
    </pre>
 );
+
+}
 ```
