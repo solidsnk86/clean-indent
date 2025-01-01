@@ -52,7 +52,6 @@ export const Pre = (lang: string, stringCode: string) => {
 - Uso del componente:
 
 ```typescript
-import { Pre } from '@/components/Pre'
 import { Pre } from '@/components/Pre';
 
 export default function Page() {
