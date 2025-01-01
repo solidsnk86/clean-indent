@@ -29,7 +29,7 @@ npm install clean-indent
 O también puedes usar
 
 ```sh
-pnpm install cleant-indent
+pnpm install clean-indent
 ```
 
 ### Ejemplo de uso
