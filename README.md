@@ -53,21 +53,22 @@ export const Pre = (lang: string, stringCode: string) => {
 
 ```typescript
 import { Pre } from '@/components/Pre'
+import { Pre } from '@/components/Pre';
 
 export default function Page() {
-return (
-<main>
-<Pre lang='typescript'>
-`
-async function getData() {
-  const url = 'https://solid-geolocation.vercel.app/location';
-  const response = await fetch(url);
-  const jsonData = await response.json();
-  return jsonData;
-}
-`
-</Pre>
-<main/>
-);
+  return (
+    <main>
+      <Pre lang="typescript">
+        {`
+          async function getData() {
+            const url = 'https://solid-geolocation.vercel.app/location';
+            const response = await fetch(url);
+            const jsonData = await response.json();
+            return jsonData;
+          }
+        `}
+      </Pre>
+    </main>
+  );
 }
 ```
