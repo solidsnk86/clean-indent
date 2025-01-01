@@ -34,6 +34,8 @@ pnpm install cleant-indent
 
 ### Ejemplo de uso
 
+- Componente:
+
 ```typescript
 import cleanIndent from 'clean-indent';
 
@@ -45,4 +47,27 @@ export const Pre = (lang: string, stringCode: string) => {
   );
 };
 
+```
+
+- Uso del componente:
+
+```typescript
+import { Pre } from '@/components/Pre'
+
+export default function Page() {
+return (
+<main>
+<Pre lang='typescript'>
+`
+async function getData() {
+const url = 'https://solid-geolocation.vercel.app/location';
+const response = await fetch(url);
+const jsonData = await response.json();
+return jsonData;
+}
+`
+</Pre>
+<main/>
+)
+}
 ```
