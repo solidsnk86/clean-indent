@@ -60,14 +60,14 @@ return (
 <Pre lang='typescript'>
 `
 async function getData() {
-const url = 'https://solid-geolocation.vercel.app/location';
-const response = await fetch(url);
-const jsonData = await response.json();
-return jsonData;
+  const url = 'https://solid-geolocation.vercel.app/location';
+  const response = await fetch(url);
+  const jsonData = await response.json();
+  return jsonData;
 }
 `
 </Pre>
 <main/>
-)
+);
 }
 ```
