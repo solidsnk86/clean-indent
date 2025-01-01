@@ -38,18 +38,16 @@ pnpm install cleant-indent
 import cleanIndent from 'clean-indent';
 
 const cleanCode = (code: string) => {
-return cleanIndent(code)
-}
+  return cleanIndent(code);
+};
 
 export const Pre = (lang: string, stringCode: string) => {
+  const code = cleanCode(stringCode);
 
-const code = cleanCode(stringCode)
-
-return (
-   <pre lang={lang}>
-     {code}
-   </pre>
-);
-
-}
+  return (
+    <pre lang={lang}>
+      {code}
+    </pre>
+  );
+};
 ```
