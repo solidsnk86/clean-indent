@@ -71,3 +71,9 @@ export default function Page() {
   );
 }
 ```
+
+---
+
+<div align="center">
+solidsnk86 • 2025
+</div>
