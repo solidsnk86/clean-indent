@@ -10,10 +10,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: pnpm/action-setup@v2
-      with:
-        version: 7
-    - run: pnpm install
+    - run: npm install
     - run: npm version patch
     - run: git config user.email "calcagni.gabriel86@gmail.com"
     - run: git config user.name "solidsnk86"
