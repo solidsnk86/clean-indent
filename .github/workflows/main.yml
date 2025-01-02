@@ -27,9 +27,15 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Commit package-lock.json if changed
+      run: |
+        git add package-lock.json
+        git commit -m "chore: update package-lock.json" || true
+
     - name: Version and publish
       run: |
-        npm version patch
+        git status
+        npm version patch --force
         git push --follow-tags
         npm publish
       env:
