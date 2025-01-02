@@ -2,7 +2,7 @@ export default function cleanIndent(str: string) {
   const indents = str
     .split("\n")
     .filter((line) => line.trim())
-    .map((line) => line.match(/^[ \t]*/)?.at(0)?.length ?? 0);
+    .map((line) => line.match(/^[ \t]*/)?.[0]?.length ?? 0);
 
   const minIndent = Math.min(...indents);
 
