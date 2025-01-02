@@ -1,6 +1,6 @@
 {
   "name": "clean-indent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Una utilidad para limpiar las indentaciones de cadenas de código.",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,13 @@
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["indentation", "clean", "format", "code", "typescript"],
+  "keywords": [
+    "indentation",
+    "clean",
+    "format",
+    "code",
+    "typescript"
+  ],
   "author": {
     "name": "Gabriel Calcagni",
     "email": "calcagni.gabriel86@gmail.com",
