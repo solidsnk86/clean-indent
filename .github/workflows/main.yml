@@ -15,7 +15,7 @@ jobs:
         node-version: 16
     - run: npm ci
     - run: npm version patch
-    - run: git config user.email "calcagni_gabriel86@gmail.com"
+    - run: git config user.email "calcagni.gabriel86@gmail.com"
     - run: git config user.name "solidsnk86"
     - run: git push
     - run: npm publish
