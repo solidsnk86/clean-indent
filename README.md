@@ -14,7 +14,7 @@
 - **Ligera**: Sin dependencias adicionales.
 - **Rápida**: Procesa incluso cadenas grandes rápidamente.
 - **Compatibilidad**: Funciona con Node.js y navegadores.
-- **Diseñada**: Esta utilidad está principalmente para formato de código y mostrar un ejemplo dentro de un elemento `<pre>` y limpiar las indentaciones y formatear el código.
+- **Especializada**: Esta utilidad está principalmente diseñada para preparar fragmentos de código para su presentación en el renderizado del HTML `<pre>`, para limpiar las indentaciones y formatear el código.
 
 ## Instalación
 
