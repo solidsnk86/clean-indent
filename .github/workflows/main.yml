@@ -10,11 +10,27 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: npm install
-    - run: npm version patch
-    - run: git config user.email "calcagni.gabriel86@gmail.com"
-    - run: git config user.name "solidsnk86"
-    - run: git push
-    - run: npm publish
+      with:
+        fetch-depth: 0
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 'latest'
+        registry-url: 'https://registry.npmjs.org'
+
+    - name: Configure Git
+      run: |
+        git config --global user.email "calcagni.gabriel86@gmail.com"
+        git config --global user.name "solidsnk86"
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Version and publish
+      run: |
+        npm version patch
+        git push --follow-tags
+        npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
