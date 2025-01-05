@@ -171,7 +171,7 @@ export default function Page() {
 ### Imagen del componente
 
 <div>
-  <Img src="/screen-shot-PRE.png" width="100%" height="auto" alt="Screen-shot PRE" />
+  <Img src="public/screen-shot-PRE.png" width="100%" height="auto" alt="Screen-shot PRE" />
 </div>
 
 ---
