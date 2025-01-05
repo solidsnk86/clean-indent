@@ -168,7 +168,7 @@ export default function Page() {
 }
 ```
 
-### Vista del componente
+### Imagen del componente
 
 <div>
   <Img src="public/screen-shot-PRE.png" width="100%" height="auto" alt="Screen-shot PRE" />
