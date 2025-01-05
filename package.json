@@ -1,6 +1,6 @@
 {
   "name": "clean-indent",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Una utilidad para limpiar las indentaciones de cadenas de código.",
   "main": "dist/index.js",
   "scripts": {
