@@ -79,7 +79,7 @@ export default function Page() {
 
 ### Aquí les dejo este componente que he creado en React más completo con otras dependencias:
 
-Instalamos el resaltador prism-reac-renderer y los íconos, en este caso lucide y la la herramienta para limpiar las indentaciones o espacios que no correspondan.
+Instalamos las dependencias.
 
 ```sh
 pnpm install prism-react-renderer lucide-react clean-indent
