@@ -168,6 +168,10 @@ export default function Page() {
 }
 ```
 
+- Estilos del componente:
+
+Les dejo el link de los estilos <a href="https://github.com/solidsnk86/calcagni-gabriel/blob/master/app/api_example/components/pre.module.css">aquí...</a>
+
 ### Imagen del componente
 
 <div>
