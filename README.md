@@ -38,6 +38,14 @@ pnpm install clean-indent
 yarn install clean-indent
 ```
 
+- Si no quieres instalar el paquete puedes usar el cdn:
+```javascript
+import cleanIndent from 'https://cdn.jsdelivr.net/gh/liquidsnk86/cdn-js@main/clean-indent.js';
+
+const code = document.querySelector('pre > code');
+code.innerText = cleanIndent(code)
+```
+
 ### Ejemplo de uso
 
 - Componente:
